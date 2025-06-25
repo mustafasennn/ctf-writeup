@@ -39,7 +39,7 @@ Morty 'den kendi bilgisayarına girmesini ve iksiri tamamlamak için son üç gi
 #### 2. Dizin Taraması
 
 ```bash
-gobuster dir -u http://10.10.42.96 -w /usr/share/wordlist/rockyou.txt -x txt, php, html
+gobuster dir -u http://10.10.42.96 -w /usr/share/wordlist/rockyou.txt -x txt,php,html
 ```
 
 Sunucudan web tarayıcılarına sunulmuş olabilecek potansiyel dizinler ve dosya adları tarandı.
