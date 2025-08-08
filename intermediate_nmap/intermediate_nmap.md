@@ -30,7 +30,9 @@ nmap 10.10.20.140 -p- -sV -T5 -v --script=vuln
 31337 numaralı porttan SSH bağlantısı için gerekli olan kimlik doğrulama bilgileri elde edildi.
 
 username: ubuntu
+
 password: Dafdas!!/str0ng
+
 sunucu IP: 10.10.20.140
 
 ---
@@ -52,6 +54,8 @@ SSH servisi üzerinden sunucuya başarıyla bağlanıldı. Geriye dosya sistemin
 ![flag](./images/flag.png)
 
 Flag konumu: /home/user/flag.txt
+
 Flag: flag{251f309497a18888dde5222761ea88e4}
+
 
 ---
