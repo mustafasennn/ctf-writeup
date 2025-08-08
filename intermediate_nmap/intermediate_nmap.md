@@ -1,5 +1,5 @@
 
-# CTF Writeup - Blue (TryHackMe)
+# CTF Writeup - Intermediate Nmap (TryHackMe)
 
 ## Genel Bilgiler
 | Alan       | Bilgi                 |
@@ -59,3 +59,4 @@ Flag: flag{251f309497a18888dde5222761ea88e4}
 
 
 ---
+
