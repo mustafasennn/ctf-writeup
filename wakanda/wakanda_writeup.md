@@ -58,6 +58,7 @@ Bu base64 stringi kopyalayıp herhangi bir online base64 decoder ile çözdüğ�
 ![](./images/decode_base64.png)
 
 `Potansiyel ssh parolası: Niamey4Ever227!!!`
+
 `Potansiyel ssh kullanıcı adı: mamadou`
 
 Web sayfasının alt kısmında `made by mamadou` ifadesinin yer almasından yola çıkarak bunun web sayfasını barındıran sunucuda bulunan bir kullanıcı olabileceğini düşünebiliriz. Başka da bir ipucu görünmüyor.
@@ -187,3 +188,4 @@ Ardından Wakanda üzerinde root olarak oturum açılıyor ve üçüncü bayrağ
 
 
 ![](./images/root_flag.png)
+
