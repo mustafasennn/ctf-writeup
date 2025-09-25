@@ -116,6 +116,7 @@ Ben de Appereance > Templates > footer.php dosyasının içeriğini reverse shel
 Daha sonra,
 
 ```bash
+(root@kali)-[~/Documents/CTF]
 nc -nvlp 1234
 ```
 
@@ -188,6 +189,7 @@ cat key-2-of-3.txt
  komutunu çalıştırdığımda nmap konsolu açılıyor ve bu konsolda da `!sh` çalıştırdığımda bir terminal açılıyor. Açılan bu terminalde ise whoami komutunu çalıştırdığımda terminalin root kullanıcısı olarak açıldığını görüyorum.
 
  ![](./images/flag3.png)
+
 
 
 
