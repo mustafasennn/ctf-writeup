@@ -1,4 +1,3 @@
-
 # CTF Writeup - Mr-Robot: 1 (VulnHub)
 
 
@@ -36,7 +35,7 @@ nmap 10.0.2.7 -sS -sV -p-
 - 80/tcp http open
 - 443/tcp https open
 
-Sunucu web yayını yapıyor. Firefow web tarayıcısını açıyorum ve `http://10..0.2.7` adresine gidiyorum ve bizi aşağıdaki web sayfası karşılıyor.
+Sunucu web yayını yapıyor. Firefox web tarayıcısını açıyorum ve `http://10.0.2.7` adresine gidiyorum ve bizi aşağıdaki web sayfası karşılıyor.
 
 ![](./images/webpage.png)
 
@@ -189,6 +188,7 @@ cat key-2-of-3.txt
  komutunu çalıştırdığımda nmap konsolu açılıyor ve bu konsolda da `!sh` çalıştırdığımda bir terminal açılıyor. Açılan bu terminalde ise whoami komutunu çalıştırdığımda terminalin root kullanıcısı olarak açıldığını görüyorum.
 
  ![](./images/flag3.png)
+
 
 
 
