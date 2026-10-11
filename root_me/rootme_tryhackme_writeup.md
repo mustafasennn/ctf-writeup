@@ -113,7 +113,6 @@ cat /root/root.txt
 Komutuyla root.txt dosyasının içeriği de okundu ve son flag de ele geçirildi.
 
 Root Flag: `THM{pr1v1l3g3_3sc4l4t10n}`
----
 
 
 
